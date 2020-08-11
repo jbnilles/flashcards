@@ -4,7 +4,7 @@ $(document).ready(function() {
   //   $("#hidden").toggle();
   // });
   $(".card").click(function(){
-    $("p",this).toggle();
+    $("p",this).slideToggle();
     
   });
 
